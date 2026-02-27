@@ -337,6 +337,151 @@ main {
   font-size: 0.92rem;
 }
 
+/* ---- Hero extras ---- */
+.hero-note {
+  font-size: 0.85rem;
+  opacity: 0.7;
+  margin-top: 1rem;
+}
+
+/* ---- Highlights section ---- */
+.highlights {
+  background: var(--bg-white);
+  padding: 3.5rem 1.5rem;
+}
+
+.highlights-inner {
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.highlights-inner h2 {
+  font-size: 1.6rem;
+  color: var(--deep-teal);
+  margin-bottom: 2rem;
+  font-weight: 800;
+}
+
+.highlight-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.5rem;
+}
+
+.highlight-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.highlight-number {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: var(--deep-teal);
+  line-height: 1.2;
+}
+
+.highlight-label {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+/* ---- How it works ---- */
+.how-it-works {
+  padding: 3.5rem 1.5rem;
+  background: var(--neve);
+}
+
+.how-inner {
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.how-inner h2 {
+  font-size: 1.6rem;
+  color: var(--deep-teal);
+  margin-bottom: 2rem;
+  font-weight: 800;
+}
+
+.steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 2rem;
+}
+
+.step {
+  background: var(--bg-white);
+  border-radius: 12px;
+  padding: 2rem 1.5rem;
+  box-shadow: var(--shadow);
+}
+
+.step-number {
+  width: 44px;
+  height: 44px;
+  background: var(--deep-teal);
+  color: #fff;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.step h3 {
+  font-size: 1.1rem;
+  color: var(--deep-teal);
+  margin-bottom: 0.5rem;
+}
+
+.step p {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+/* ---- CTA section ---- */
+.cta-section {
+  background: linear-gradient(135deg, var(--deep-teal), var(--foresta));
+  color: #fff;
+  text-align: center;
+  padding: 3.5rem 1.5rem;
+}
+
+.cta-section h2 {
+  font-size: 1.6rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+}
+
+.cta-section p {
+  font-size: 1.05rem;
+  opacity: 0.9;
+  margin-bottom: 1.5rem;
+}
+
+.store-badge-dark {
+  background: rgba(0, 0, 0, 0.25);
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+.store-badge-dark:hover {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+/* ---- Footer disclaimer ---- */
+.footer-disclaimer {
+  font-size: 0.78rem;
+  opacity: 0.6;
+  margin-top: 0.8rem;
+}
+
 /* ---- Footer ---- */
 .site-footer {
   background: var(--deep-teal-dark);
@@ -393,5 +538,23 @@ main {
 
   .features {
     margin-top: -1rem;
+  }
+
+  .highlights-inner h2,
+  .how-inner h2,
+  .cta-section h2 {
+    font-size: 1.3rem;
+  }
+
+  .highlight-number {
+    font-size: 1.8rem;
+  }
+
+  .steps {
+    gap: 1rem;
+  }
+
+  .step {
+    padding: 1.5rem 1rem;
   }
 }

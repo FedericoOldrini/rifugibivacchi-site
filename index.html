@@ -3,9 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rifugi e Bivacchi — Scopri oltre 1000 rifugi alpini</title>
-  <meta name="description" content="Scopri oltre 1000 rifugi e bivacchi alpini in Italia. Dati ufficiali dal Club Alpino Italiano. Mappe, info, previsioni meteo e il Passaporto dei Rifugi.">
+  <title>Rifugi e Bivacchi — Scopri oltre 1000 rifugi alpini in Italia</title>
+  <meta name="description" content="L'app gratuita per scoprire oltre 1000 rifugi e bivacchi alpini in Italia. Dati ufficiali CAI, mappe offline, meteo in tempo reale e il Passaporto dei Rifugi.">
+  <meta name="keywords" content="rifugi, bivacchi, montagna, alpi, CAI, trekking, escursioni, alpinismo, hiking, dolomiti, app">
+  <meta name="author" content="Rifugi e Bivacchi">
   <meta name="theme-color" content="#2C5F5D">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Rifugi e Bivacchi — Scopri oltre 1000 rifugi alpini">
+  <meta property="og:description" content="L'app gratuita per esplorare rifugi e bivacchi alpini in Italia. Dati ufficiali CAI, mappe, meteo e il Passaporto dei Rifugi.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://federicooldrini.github.io/rifugibivacchi-site/">
+  <meta property="og:locale" content="it_IT">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Rifugi e Bivacchi — Scopri oltre 1000 rifugi alpini">
+  <meta name="twitter:description" content="L'app gratuita per esplorare rifugi e bivacchi alpini in Italia.">
+
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -17,9 +32,9 @@
         <span class="mountain-icon">&#9968;</span> Rifugi e Bivacchi
       </a>
       <ul class="navbar-links">
-        <li><a href="privacy.html">Privacy</a></li>
-        <li><a href="terms.html">Termini</a></li>
+        <li><a href="#features">Funzioni</a></li>
         <li><a href="support.html">Supporto</a></li>
+        <li><a href="privacy.html">Privacy</a></li>
       </ul>
     </div>
   </nav>
@@ -29,63 +44,130 @@
     <span class="mountain-emoji">&#127956;</span>
     <h1>Rifugi e Bivacchi</h1>
     <p class="subtitle">
-      Scopri oltre 1000 rifugi e bivacchi alpini in Italia.
-      Dati ufficiali dal Club Alpino Italiano.
+      Scopri oltre <strong>1000 rifugi e bivacchi</strong> alpini in Italia.<br>
+      Dati ufficiali dal Club Alpino Italiano. Gratuita.
     </p>
     <div class="store-badges">
-      <a href="#" class="store-badge">
+      <a href="#" class="store-badge" aria-label="Scarica su App Store">
         &#63743; App Store
       </a>
-      <a href="#" class="store-badge">
+      <a href="#" class="store-badge" aria-label="Scarica su Google Play">
         &#9654; Google Play
       </a>
     </div>
+    <p class="hero-note">Disponibile gratuitamente per iPhone e Android</p>
   </section>
 
-  <!-- Features -->
   <main>
-    <section class="features">
+
+    <!-- Features -->
+    <section class="features" id="features">
       <div class="feature-card">
         <span class="icon">&#128205;</span>
         <h3>Oltre 1000 Strutture</h3>
-        <p>Database completo di rifugi e bivacchi censiti dal CAI con informazioni dettagliate su servizi, contatti e accessibilità.</p>
+        <p>Il database piu completo di rifugi, bivacchi e punti di appoggio censiti dal CAI. Informazioni dettagliate su servizi, contatti, accessibilita e posti letto.</p>
       </div>
       <div class="feature-card">
         <span class="icon">&#128506;</span>
         <h3>Mappe Interattive</h3>
-        <p>Visualizza tutti i rifugi sulla mappa, trova quelli più vicini a te e pianifica le tue escursioni con mappe offline.</p>
+        <p>Visualizza tutti i rifugi sulla mappa con clustering intelligente. Trova quelli piu vicini a te e pianifica le escursioni. Supporto mappe offline.</p>
       </div>
       <div class="feature-card">
         <span class="icon">&#127782;&#65039;</span>
         <h3>Meteo in Tempo Reale</h3>
-        <p>Previsioni meteo aggiornate per ogni rifugio, così puoi pianificare la tua escursione in sicurezza.</p>
+        <p>Previsioni meteo aggiornate per ogni rifugio con temperature, precipitazioni e vento. Pianifica la tua escursione in sicurezza.</p>
       </div>
       <div class="feature-card">
         <span class="icon">&#128149;</span>
-        <h3>Preferiti</h3>
-        <p>Salva i rifugi che ti interessano e ritrovali facilmente. Sincronizzati su tutti i tuoi dispositivi.</p>
+        <h3>Preferiti Sincronizzati</h3>
+        <p>Salva i rifugi che ti interessano di piu e ritrovali facilmente. I tuoi preferiti si sincronizzano automaticamente su tutti i tuoi dispositivi.</p>
       </div>
       <div class="feature-card">
         <span class="icon">&#128717;</span>
         <h3>Passaporto dei Rifugi</h3>
-        <p>Registra le tue visite e colleziona i rifugi visitati nel tuo passaporto digitale personale.</p>
+        <p>Il tuo diario digitale di montagna. Registra ogni visita con data e note, colleziona i rifugi visitati e condividi i tuoi traguardi.</p>
       </div>
       <div class="feature-card">
         <span class="icon">&#128247;</span>
-        <h3>Condividi</h3>
-        <p>Condividi i rifugi e le tue visite con amici e familiari. Crea ricordi delle tue avventure in montagna.</p>
+        <h3>Condividi le Avventure</h3>
+        <p>Condividi i rifugi e i check-in con amici e familiari su WhatsApp, Instagram e altri social. Crea ricordi delle tue giornate in quota.</p>
       </div>
     </section>
+
+    <!-- Highlights -->
+    <section class="highlights">
+      <div class="highlights-inner">
+        <h2>Perche scegliere Rifugi e Bivacchi?</h2>
+        <div class="highlight-grid">
+          <div class="highlight-item">
+            <span class="highlight-number">1000+</span>
+            <span class="highlight-label">Rifugi e bivacchi</span>
+          </div>
+          <div class="highlight-item">
+            <span class="highlight-number">100%</span>
+            <span class="highlight-label">Gratuita, senza pubblicita</span>
+          </div>
+          <div class="highlight-item">
+            <span class="highlight-number">CAI</span>
+            <span class="highlight-label">Dati ufficiali verificati</span>
+          </div>
+          <div class="highlight-item">
+            <span class="highlight-number">&#128274;</span>
+            <span class="highlight-label">Funziona anche offline</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How it works -->
+    <section class="how-it-works">
+      <div class="how-inner">
+        <h2>Come funziona</h2>
+        <div class="steps">
+          <div class="step">
+            <div class="step-number">1</div>
+            <h3>Esplora</h3>
+            <p>Cerca rifugi per nome, zona o sulla mappa interattiva. Filtra per tipo, servizi e accessibilita.</p>
+          </div>
+          <div class="step">
+            <div class="step-number">2</div>
+            <h3>Pianifica</h3>
+            <p>Consulta i dettagli: contatti, servizi, meteo, galleria fotografica e indicazioni per raggiungerli.</p>
+          </div>
+          <div class="step">
+            <div class="step-number">3</div>
+            <h3>Colleziona</h3>
+            <p>Registra le visite nel Passaporto dei Rifugi, salva i preferiti e condividi le tue avventure.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section">
+      <h2>Scarica gratis Rifugi e Bivacchi</h2>
+      <p>La tua prossima avventura in montagna inizia qui.</p>
+      <div class="store-badges">
+        <a href="#" class="store-badge store-badge-dark" aria-label="Scarica su App Store">
+          &#63743; App Store
+        </a>
+        <a href="#" class="store-badge store-badge-dark" aria-label="Scarica su Google Play">
+          &#9654; Google Play
+        </a>
+      </div>
+    </section>
+
   </main>
 
   <!-- Footer -->
   <footer class="site-footer">
     <ul class="footer-links">
+      <li><a href="support.html">Supporto</a></li>
       <li><a href="privacy.html">Privacy Policy</a></li>
       <li><a href="terms.html">Termini e Condizioni</a></li>
-      <li><a href="support.html">Supporto</a></li>
     </ul>
     <p>&copy; 2026 Rifugi e Bivacchi. Tutti i diritti riservati.</p>
+    <p class="footer-disclaimer">I dati sui rifugi provengono dal Club Alpino Italiano (CAI). Verifica sempre le informazioni prima di pianificare un'escursione.</p>
   </footer>
 
 </body>
